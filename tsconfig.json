@@ -1,6 +1,8 @@
 {
   "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
+    "target": "es2018",
+    "module": "CommonJS",
     "resolveJsonModule": true,
     "outDir": "build",
     "lib": [
